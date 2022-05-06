@@ -110,19 +110,11 @@ class EventController extends Controller
         return redirect()->route('admin.events.index')->with('success', 'Event created successfully!');
     }
 
-    private function tagsinputToJson($tags)
-    {
-        $tags = explode(',', $tags);
-        $tags = array_map('trim', $tags);
-        $tags = array_filter($tags);
-        $tags = array_unique($tags);
-        $tags = array_values($tags);
-        return json_encode($tags);
-    }
-
     public function edit($id)
     {
         $event = Event::find($id);
+        $event->famous_person = $this->jsonToTagsinput($event->famous_person);
+        $event->free_food = $this->jsonToTagsinput($event->free_food);
         return view('admin.events.edit', compact('event'));
     }
 
@@ -203,5 +195,23 @@ class EventController extends Controller
         return redirect()->route('admin.events.index')->with('success', 'Event status updated successfully!');
     }
 
+    private function tagsinputToJson($tags)
+    {
+        $tags = explode(',', $tags);
+        $tags = array_map('trim', $tags);
+        $tags = array_filter($tags);
+        $tags = array_unique($tags);
+        $tags = array_values($tags);
+        return json_encode($tags);
+    }
 
+    private function jsonToTagsinput($json)
+    {
+        $tags = json_decode($json);
+        $tags = array_map('trim', $tags);
+        $tags = array_filter($tags);
+        $tags = array_unique($tags);
+        $tags = array_values($tags);
+        return implode(',', $tags);
+    }
 }

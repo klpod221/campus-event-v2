@@ -106,7 +106,7 @@
                                             Start Date
                                             <span class="icon-danger">*</span>
                                         </h6>
-                                        <div class="input-group date">
+                                        <div class="input-group">
                                             <input type="text" name="start_date" value="{{ old('start_date') }}"
                                                 class="form-control datetimepicker" id="start_date"
                                                 placeholder="2022-12-17 16:55:00" />
@@ -122,7 +122,7 @@
                                             End Date
                                             <span class="icon-danger">*</span>
                                         </h6>
-                                        <div class="input-group date">
+                                        <div class="input-group">
                                             <input type="text" name="end_date" value="{{ old('end_date') }}"
                                                 class="form-control datetimepicker" id="end_date"
                                                 placeholder="2022-12-18 16:55:00" />

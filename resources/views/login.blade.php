@@ -59,7 +59,7 @@
                 <div class="demo-footer text-center">
                     <h6>&copy;<script>
                             document.write(new Date().getFullYear())
-                        </script>, made with <i class="fa fa-heart heart"></i> by klpod221</h6>
+                        </script>, made with <i class="fa fa-heart heart"></i> by {{ env('AUTHORS_NAME') }}</h6>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 $(".datetimepicker").datetimepicker({
-    format: "HH:mm DD-MM-YYYY",
+    format: "YYYY-MM-DD HH:mm:ss",
     icons: {
         time: "fa fa-clock-o",
         date: "fa fa-calendar",
