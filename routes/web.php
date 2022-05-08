@@ -2,11 +2,13 @@
 
 namespace App;
 
+use App\Http\Middleware\CheckAdmin;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\admin\EventController;
-use App\Http\Middleware\CheckAdmin;
 use App\Http\Middleware\CheckAdminNotLogin;
+use App\Http\Controllers\user\UserController;
+use App\Http\Controllers\admin\EventController;
+use App\Http\Controllers\user\UserEventController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,8 +22,13 @@ use App\Http\Middleware\CheckAdminNotLogin;
 */
 
 Route::get('/', function () {
-    return view('user.home');
+    return view('home');
 })->name('home');
+
+Route::get('events', [UserController::class, 'events'])->name('user.events.index');
+Route::get('events/search', [UserController::class, 'eventsSearch'])->name('user.events.search');
+
+Route::get('about', [UserController::class, 'about'])->name('user.about.index');
 
 Route::middleware([CheckAdminNotLogin::class])->group(function () {
     Route::get('/admin', [AuthController::class, 'index']);

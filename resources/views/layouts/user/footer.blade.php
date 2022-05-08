@@ -1,11 +1,11 @@
-<footer class="footer footer-black">
+<footer class="footer footer-black ">
 	<div class="container">
 		<div class="row">
 			<nav class="footer-nav">
 				<ul>
 					<li><a href="">{{ env('AUTHORS_NAME') }}</a></li>
 					<li><a href="{{ route('home') }}">Home</a></li>
-					<li><a href="{{ route('admin.events.index') }}">Events Manager</a></li>
+					<li><a href="{{ route('user.events.index') }}">Event List</a></li>
 					<li><a href="{{ route('user.about.index') }}">About Us</a></li>
 				</ul>
 			</nav>
