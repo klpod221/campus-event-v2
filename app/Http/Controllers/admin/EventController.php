@@ -187,9 +187,9 @@ class EventController extends Controller
         return redirect()->route('admin.events.index')->with('success', 'Event deleted successfully!');
     }
 
-    public function status($id)
+    public function status(Request $request)
     {
-        $event = Event::find($id);
+        $event = Event::find($request->id);
         $event->status = !$event->status;
         $event->save();
         return redirect()->route('admin.events.index')->with('success', 'Event status updated successfully!');
