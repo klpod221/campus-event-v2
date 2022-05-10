@@ -27,14 +27,13 @@
                                     </span> --}}
                                     <div class="clearfix"></div>
                                     <div class="author">
-                                        <a href="#pablo">
+                                        <a>
                                            <img src="{{ asset('assets') }}/img/faces/kaci-baum-2.jpg" alt="..." class="avatar-big img-raised border-gray">
                                         </a>
-                                        <h5 class="card-title">Kaci Baum</h5>
-                                        <p class="category"><a href="#twitter" class="text-danger">@kacibaum</a></p>
+                                        <h5 class="card-title">Hoàng Minh Phú</h5>
+                                        <p class="category"><a class="text-danger">B19DCVT284</a></p>
                                     </div>
                                     <p class="card-description">
-                                        "Less, but better - because it concentrates on the essential aspects, and the products are not burdened with non-essentials."
                                     </p>
                                 </div>
                             </div>
@@ -47,14 +46,14 @@
                                     </span> --}}
                                     <div class="clearfix"></div>
                                     <div class="author">
-                                        <a href="#pablo">
+                                        <a>
                                            <img src="{{ asset('assets') }}/img/faces/kaci-baum-2.jpg" alt="..." class="avatar-big img-raised border-gray">
                                         </a>
-                                        <h5 class="card-title">Kaci Baum</h5>
-                                        <p class="category"><a href="#twitter" class="text-danger">@kacibaum</a></p>
+                                        <h5 class="card-title">Trần Huy Tuấn</h5>
+                                        <p class="category"><a class="text-danger">B19DCVT346</a></p>
                                     </div>
                                     <p class="card-description">
-                                        "Less, but better - because it concentrates on the essential aspects, and the products are not burdened with non-essentials."
+
                                     </p>
                                 </div>
                             </div>
@@ -69,14 +68,14 @@
                                     </span> --}}
                                     <div class="clearfix"></div>
                                     <div class="author">
-                                        <a href="#pablo">
+                                        <a>
                                            <img src="{{ asset('assets') }}/img/faces/kaci-baum-2.jpg" alt="..." class="avatar-big img-raised border-gray">
                                         </a>
-                                        <h5 class="card-title">Kaci Baum</h5>
-                                        <p class="category"><a href="#twitter" class="text-danger">@kacibaum</a></p>
+                                        <h5 class="card-title">Nguyễn Văn Lượng</h5>
+                                        <p class="category"><a class="text-danger">B19DCVT244</a></p>
                                     </div>
                                     <p class="card-description">
-                                        "Less, but better - because it concentrates on the essential aspects, and the products are not burdened with non-essentials."
+
                                     </p>
                                 </div>
                             </div>
@@ -89,14 +88,14 @@
                                     </span> --}}
                                     <div class="clearfix"></div>
                                     <div class="author">
-                                        <a href="#pablo">
+                                        <a>
                                            <img src="{{ asset('assets') }}/img/faces/kaci-baum-2.jpg" alt="..." class="avatar-big img-raised border-gray">
                                         </a>
-                                        <h5 class="card-title">Kaci Baum</h5>
-                                        <p class="category"><a href="#twitter" class="text-danger">@kacibaum</a></p>
+                                        <h5 class="card-title">Đào Văn Thanh </h5>
+                                        <p class="category"><a class="text-danger">B19DCVT370</a></p>
                                     </div>
                                     <p class="card-description">
-                                        "Less, but better - because it concentrates on the essential aspects, and the products are not burdened with non-essentials."
+
                                     </p>
                                 </div>
                             </div>
@@ -109,14 +108,14 @@
                                     </span> --}}
                                     <div class="clearfix"></div>
                                     <div class="author">
-                                        <a href="#pablo">
+                                        <a>
                                            <img src="{{ asset('assets') }}/img/faces/kaci-baum-2.jpg" alt="..." class="avatar-big img-raised border-gray">
                                         </a>
-                                        <h5 class="card-title">Kaci Baum</h5>
-                                        <p class="category"><a href="#twitter" class="text-danger">@kacibaum</a></p>
+                                        <h5 class="card-title">Trần Minh Đức</h5>
+                                        <p class="category"><a class="text-danger">B19DCVT104</a></p>
                                     </div>
                                     <p class="card-description">
-                                        "Less, but better - because it concentrates on the essential aspects, and the products are not burdened with non-essentials."
+
                                     </p>
                                 </div>
                             </div>
