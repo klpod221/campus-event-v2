@@ -176,7 +176,7 @@
                                     </h4>
                                 </div>
                                 <div class="card-body">
-                                    <img src="{{ $event->image }}" alt="Event Image" class="img-fluid">
+                                    <img src="{{ asset('assets') }}/img/events/images/{{ $event->image }}" alt="Event Image" class="img-fluid">
                                 </div>
                             </div>
                         </div>

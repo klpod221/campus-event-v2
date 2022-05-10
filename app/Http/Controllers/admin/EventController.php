@@ -101,9 +101,9 @@ class EventController extends Controller
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $name = time() . '.' . $image->getClientOriginalExtension();
-            $destinationPath = storage_path('app/public/events/images');
+            $destinationPath = public_path('assets/img/events/images');
             $image->move($destinationPath, $name);
-            $event->image = env('FILE_HOST') . $destinationPath . '/' . $name;
+            $event->image = $name;
         }
 
         $event->save();
@@ -171,9 +171,9 @@ class EventController extends Controller
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $name = time() . '.' . $image->getClientOriginalExtension();
-            $destinationPath = storage_path('app/public/events/images');
+            $destinationPath = public_path('assets/img/events/images');
             $image->move($destinationPath, $name);
-            $event->image = env('FILE_HOST') . $destinationPath . '/' . $name;
+            $event->image = $name;
         }
 
         $event->save();

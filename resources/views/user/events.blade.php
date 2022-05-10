@@ -38,7 +38,7 @@
                                 <div class="card card-plain card-blog text-center">
                                     <div class="card-image" style="margin: auto">
                                         <a style="text-align: center">
-                                            <img class="img img-raised" src="{{ $event->image }}" />
+                                            <img class="img img-raised" src="{{ asset('assets') }}/img/events/images/{{ $event->image }}" />
                                         </a>
                                     </div>
                                     <div class="card-body">
